@@ -9,6 +9,7 @@ import { SculptureComponent } from './pages/sculpture/sculpture.component';
 import { PrintsComponent } from './pages/prints/prints.component';
 import { DrawingsComponent } from './pages/drawings/drawings.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactMeComponent } from './pages/contact-me/contact-me.component';
     SculptureComponent,
     PrintsComponent,
     DrawingsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
