@@ -10,6 +10,7 @@ import { PrintsComponent } from './pages/prints/prints.component';
 import { DrawingsComponent } from './pages/drawings/drawings.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
+import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
     PrintsComponent,
     DrawingsComponent,
     ContactMeComponent,
-    MainLayoutComponent
+    MainLayoutComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

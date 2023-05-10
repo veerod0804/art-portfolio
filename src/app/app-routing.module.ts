@@ -16,23 +16,9 @@ const routes: Routes = [
     {path: 'glass', component: GlassComponent},
     {path: 'prints', component: PrintsComponent},
     {path: 'sculpture', component: SculptureComponent},
-    
-
   ]}
-//use example below
 ];
 
-
-//
-// const routes: Routes = [
-//   {path: '', component: MainLayoutComponent, children: [
-//     {path: '', component: NotesListComponent},
-//     {path: 'new', component: NoteDetailsComponent},
-//     {path: ':id', component: NoteDetailsComponent},
-//   ] }
-
-// ];
-//
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
