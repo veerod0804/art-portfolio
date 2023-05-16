@@ -7,11 +7,12 @@ import { DrawingsComponent } from './pages/drawings/drawings.component';
 import { GlassComponent } from './pages/glass/glass.component';
 import { PrintsComponent } from './pages/prints/prints.component';
 import { SculptureComponent } from './pages/sculpture/sculpture.component';
+import { CeramicsComponent } from './pages/ceramics/ceramics.component';
 
 const routes: Routes = [
   {path: '', component: MainLayoutComponent, children: [
-    {path: 'home', component: HomePageComponent},
-    {path: 'contact', component: ContactMeComponent},
+    {path: '', component: ContactMeComponent},
+    {path: 'ceramics', component: CeramicsComponent},
     {path: 'drawings', component: DrawingsComponent},
     {path: 'glass', component: GlassComponent},
     {path: 'prints', component: PrintsComponent},
