@@ -9,6 +9,9 @@ import { SculptureComponent } from './pages/sculpture/sculpture.component';
 import { PrintsComponent } from './pages/prints/prints.component';
 import { DrawingsComponent } from './pages/drawings/drawings.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
+import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
+import { CeramicsComponent } from './pages/ceramics/ceramics.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ContactMeComponent } from './pages/contact-me/contact-me.component';
     SculptureComponent,
     PrintsComponent,
     DrawingsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    MainLayoutComponent,
+    NavBarComponent,
+    CeramicsComponent
   ],
   imports: [
     BrowserModule,
