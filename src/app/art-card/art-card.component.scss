@@ -1,0 +1,24 @@
+@import '../../main-styles.scss';
+.box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: $brown;
+    border-width: 5px;
+    background-color: $mint;
+    font-size: 20px;
+    font-style: italic;
+
+    h1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+}

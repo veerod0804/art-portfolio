@@ -12,6 +12,7 @@ import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
 import { CeramicsComponent } from './pages/ceramics/ceramics.component';
+import { ArtCardComponent } from './art-card/art-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CeramicsComponent } from './pages/ceramics/ceramics.component';
     ContactMeComponent,
     MainLayoutComponent,
     NavBarComponent,
-    CeramicsComponent
+    CeramicsComponent,
+    ArtCardComponent
   ],
   imports: [
     BrowserModule,
