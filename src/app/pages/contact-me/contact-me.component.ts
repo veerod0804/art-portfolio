@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactMeComponent implements OnInit {
 
+  artistStatementTitle = "Artist Statement";
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }
