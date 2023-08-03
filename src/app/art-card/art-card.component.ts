@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArtCardComponent implements OnInit {
 
+  glass1: string = 'Angled Bottle';
+  glass2: string = 'Blue Sandblasted Vase';
+  glass3: string = 'Mistake';
+
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+
 
 }

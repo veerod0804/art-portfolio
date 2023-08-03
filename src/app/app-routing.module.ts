@@ -7,7 +7,7 @@ import { GlassComponent } from './pages/glass/glass.component';
 import { PrintsComponent } from './pages/prints/prints.component';
 import { SculptureComponent } from './pages/sculpture/sculpture.component';
 import { CeramicsComponent } from './pages/ceramics/ceramics.component';
-import { DigitalArtComponent } from './digital-art/digital-art.component';
+import { DigitalArtComponent } from './pages/digital-art/digital-art.component';
 
 const routes: Routes = [
   {path: '', component: MainLayoutComponent, children: [

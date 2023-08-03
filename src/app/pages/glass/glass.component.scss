@@ -1,32 +1,10 @@
 @import '../../../main-styles.scss';
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 100%;
-    padding-top: 50px;
-
-h1 {
+.glassblowing {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
     font-size: 50px;
     font-style: bold;
     color: white;
-    
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: flex;
-    font-size: 30px;
-    font-style: bold;
-    color: white;
-}
-
-app-art-card {
-    text-align: center;
-}
 }

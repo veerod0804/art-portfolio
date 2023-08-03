@@ -13,7 +13,7 @@ import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
 import { CeramicsComponent } from './pages/ceramics/ceramics.component';
 import { ArtCardComponent } from './art-card/art-card.component';
-import { DigitalArtComponent } from './digital-art/digital-art.component';
+import { DigitalArtComponent } from './pages/digital-art/digital-art.component';
 
 @NgModule({
   declarations: [
