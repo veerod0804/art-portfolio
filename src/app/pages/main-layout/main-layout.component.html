@@ -1,79 +1,40 @@
 
-<div class="layout-box">
+<div class="layout">
 
-    <div class="top-bar">
-        <h1>Victoria's Portfolio</h1>
+  <div class="top-bar">
+      <h1>Victoria's Portfolio</h1>
+  </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Portfolio</a>
+        <hr class="navbar-divider">
+
+        <div class="navbar-dropdown">
+          <a href="/ceramics" class="navbar-item" routerLink="ceramics">Ceramics</a>
+            <hr class="navbar-divider">
+          <a href="/digital" class="navbar-item" routerLink="digital">Digital</a>
+            <hr class="navbar-divider">
+          <a href="/ceramics" class="navbar-item" routerLink="drawings">Drawings</a>
+            <hr class="navbar-divider">
+          <a href="/glassblowing" class="navbar-item" routerLink="glass">Glassblowing</a>
+            <hr class="navbar-divider">
+          <a href="/printmaking" class="navbar-item" routerLink="prints">Printmaking</a>
+            <hr class="navbar-divider">
+          <a href="/sculpture" class="navbar-item" routerLink="sculpture">Sculpture</a>
+            <hr class="navbar-divider">
+          <a href="" class="navbar-item" routerLink="">About the Artist</a>
+        </div>
+      </div>
+      <a href="" class="navbar-item" routerLink="">About the Artist</a>
     </div>
+  </nav>
 
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-        
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
-          
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-          
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Portfolio
-                  </a>
-          
-                  <hr class="navbar-divider">
-          
-                  <div class="navbar-dropdown">
-                    <a href="/ceramics" class="navbar-item" routerLink="ceramics">
-                      Ceramics
-                    </a>
-          
-                    <hr class="navbar-divider">
-                    
-                    <a href="/digital" class="navbar-item" routerLink="digital">
-                      Digital
-                    </a>
-          
-                    <hr class="navbar-divider">
-          
-                    <a href="/ceramics" class="navbar-item" routerLink="drawings">
-                        Drawings
-                      </a>
-            
-                      <hr class="navbar-divider">
-
-                    <a href="/glassblowing" class="navbar-item" routerLink="glass">
-                      Glassblowing
-                    </a>
-          
-                    <hr class="navbar-divider">
-          
-                    <a href="/printmaking" class="navbar-item" routerLink="prints">
-                      Printmaking
-                    </a>
-          
-                    <hr class="navbar-divider">
-          
-                    <a href="/sculpture" class="navbar-item" routerLink="sculpture">
-                      Sculpture
-                    </a>
-        
-                  </div>
-          
-                </div>
-                <a href="" class="navbar-item" routerLink="">
-                  About the Artist
-                </a>
-              </div>
-            </div>
-          </nav>
-    
-
-    <div class="page-content">
-        <router-outlet></router-outlet>
-    </div>
+  <div class="page-content">
+      <router-outlet></router-outlet>
+  </div>
 
 </div>
 
